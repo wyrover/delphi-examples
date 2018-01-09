@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<app file="Z:\OneDrive\delphi-examples\bin\planes.exe">
+  <node caption="其他" imageindex="0" classname="">
+    <node caption="testtest2" imageindex="0" classname="TDemo1Form"/>
+    <node caption="FormRotateFlip01" imageindex="0" classname="TFormRotateFlip01"/>
+    <node caption="FormExcel" imageindex="0" classname="TExcelForm"/>
+    <node caption="顽兔" imageindex="0" classname="TDemo2Form"/>
+    <node caption="爱逛街" imageindex="0" classname="TDemo3Form"/>
+    <node caption="基本绘制" imageindex="0" classname="">
+      <node caption="基本绘制" imageindex="0" classname="TfrmGraphics"/>
+      <node caption="Bitmap32 Demo" imageindex="0" classname="TBitmap32Demo"/>
+      <node caption="JPG Demo" imageindex="0" classname="TJPGDemoForm"/>
+      <node caption="Controls Demo" imageindex="0" classname="TControlsDemoForm"/>
+    </node>
+  </node>
+</app>

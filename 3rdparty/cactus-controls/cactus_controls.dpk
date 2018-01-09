@@ -1,0 +1,50 @@
+package cactus_controls;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vclx;
+
+contains
+  URLLbl in 'URLLbl.pas',
+  GradPnl in 'GradPnl.pas',
+  FlatPanel in 'FlatPanel.pas',
+  FlatMemo in 'FlatMemo.pas',
+  FlatEdit in 'FlatEdit.pas',
+  ColorUtils in 'ColorUtils.pas',
+  FlatButton in 'FlatButton.pas',
+  FlatCheckBox in 'FlatCheckBox.pas',
+  FlatTab in 'FlatTab.pas',
+  FlatGauge in 'FlatGauge.pas',
+  FlatProgressBar in 'FlatProgressBar.pas',
+  Gauge2 in 'Gauge2.pas',
+  Btn360 in 'Btn360.pas';
+
+end.

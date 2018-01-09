@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{75333A2E-AFA5-4B1A-AFC2-F4B697C9063D}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="planes.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\..\3rdparty\cactus-controls\cactus_controls.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="planes">
+			<MSBuild Projects="planes.dproj"/>
+		</Target>
+		<Target Name="planes:Clean">
+			<MSBuild Projects="planes.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="planes:Make">
+			<MSBuild Projects="planes.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="cactus_controls">
+			<MSBuild Projects="..\..\3rdparty\cactus-controls\cactus_controls.dproj"/>
+		</Target>
+		<Target Name="cactus_controls:Clean">
+			<MSBuild Projects="..\..\3rdparty\cactus-controls\cactus_controls.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="cactus_controls:Make">
+			<MSBuild Projects="..\..\3rdparty\cactus-controls\cactus_controls.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="planes;cactus_controls"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="planes:Clean;cactus_controls:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="planes:Make;cactus_controls:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>
