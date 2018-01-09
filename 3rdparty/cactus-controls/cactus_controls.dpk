@@ -30,7 +30,8 @@ package cactus_controls;
 requires
   rtl,
   vcl,
-  vclx;
+  vclx,
+  vclimg;
 
 contains
   URLLbl in 'URLLbl.pas',
@@ -45,6 +46,7 @@ contains
   FlatGauge in 'FlatGauge.pas',
   FlatProgressBar in 'FlatProgressBar.pas',
   Gauge2 in 'Gauge2.pas',
-  Btn360 in 'Btn360.pas';
+  Btn360 in 'Btn360.pas',
+  BitmapUtils in 'BitmapUtils.pas';
 
 end.

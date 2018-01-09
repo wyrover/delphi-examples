@@ -78,6 +78,7 @@
 			<DCCReference Include="rtl.dcp"/>
 			<DCCReference Include="vcl.dcp"/>
 			<DCCReference Include="vclx.dcp"/>
+			<DCCReference Include="vclimg.dcp"/>
 			<DCCReference Include="URLLbl.pas"/>
 			<DCCReference Include="GradPnl.pas"/>
 			<DCCReference Include="FlatPanel.pas"/>
@@ -91,6 +92,7 @@
 			<DCCReference Include="FlatProgressBar.pas"/>
 			<DCCReference Include="Gauge2.pas"/>
 			<DCCReference Include="Btn360.pas"/>
+			<DCCReference Include="BitmapUtils.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
