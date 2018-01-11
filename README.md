@@ -7,3 +7,4 @@
 - https://github.com/graphics32  32 位位图
 - https://github.com/LaKraven/LKSL  数据结构和事件系统
 - https://github.com/errorcalc/FreeEsVCLComponents  点九图
+- https://github.com/errorcalc/PackagesGenerator  用于生成不同 delphi 版本的组件包
