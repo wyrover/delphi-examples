@@ -9,3 +9,4 @@
 - https://github.com/errorcalc/FreeEsVCLComponents  点九图
 - https://github.com/errorcalc/PackagesGenerator  用于生成不同 delphi 版本的组件包
 - https://github.com/errorcalc/TurboUpdate 使用 THttpClient 的简单自动更新程序
+- https://github.com/CWBudde/Pascal-HTML5-Canvas  一个 pascal 代码实现的类似 html5 canvas 的功能
