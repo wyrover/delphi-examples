@@ -8,3 +8,4 @@
 - https://github.com/LaKraven/LKSL  数据结构和事件系统
 - https://github.com/errorcalc/FreeEsVCLComponents  点九图
 - https://github.com/errorcalc/PackagesGenerator  用于生成不同 delphi 版本的组件包
+- https://github.com/errorcalc/TurboUpdate 使用 THttpClient 的简单自动更新程序
