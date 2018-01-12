@@ -47,6 +47,8 @@ begin
     Result := nil;
   end;
 
+  db.Free;
+
 end;
 
 

@@ -3,7 +3,7 @@
 			<ProjectGuid>{0CA2D1D4-4DE4-4E81-9C7E-918B8E1CC156}</ProjectGuid>
 			<MainSource>cactus_controls.dpk</MainSource>
 			<ProjectVersion>13.4</ProjectVersion>
-			<FrameworkType>None</FrameworkType>
+			<FrameworkType>VCL</FrameworkType>
 			<Base>True</Base>
 			<Config Condition="'$(Config)'==''">Debug</Config>
 			<Platform Condition="'$(Platform)'==''">Win32</Platform>
@@ -39,7 +39,7 @@
 			<GenPackage>true</GenPackage>
 			<DCC_CBuilderOutput>All</DCC_CBuilderOutput>
 			<GenDll>true</GenDll>
-			<DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
+			<DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
 			<DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
 			<DCC_ExeOutput>.\$(Platform)\$(Config)</DCC_ExeOutput>
 			<DCC_E>false</DCC_E>
@@ -79,20 +79,25 @@
 			<DCCReference Include="vcl.dcp"/>
 			<DCCReference Include="vclx.dcp"/>
 			<DCCReference Include="vclimg.dcp"/>
+			<DCCReference Include="vclie.dcp"/>
+			<DCCReference Include="tmsdxe2.dcp"/>
+			<DCCReference Include="tmsexdxe2.dcp"/>
 			<DCCReference Include="URLLbl.pas"/>
-			<DCCReference Include="GradPnl.pas"/>
-			<DCCReference Include="FlatPanel.pas"/>
-			<DCCReference Include="FlatMemo.pas"/>
-			<DCCReference Include="FlatEdit.pas"/>
+			<DCCReference Include="BitmapUtils.pas"/>
+			<DCCReference Include="Btn360.pas"/>
+			<DCCReference Include="cmpExWebBrowser.pas"/>
 			<DCCReference Include="ColorUtils.pas"/>
 			<DCCReference Include="FlatButton.pas"/>
 			<DCCReference Include="FlatCheckBox.pas"/>
-			<DCCReference Include="FlatTab.pas"/>
+			<DCCReference Include="FlatEdit.pas"/>
 			<DCCReference Include="FlatGauge.pas"/>
+			<DCCReference Include="FlatMemo.pas"/>
+			<DCCReference Include="FlatPanel.pas"/>
 			<DCCReference Include="FlatProgressBar.pas"/>
+			<DCCReference Include="FlatTab.pas"/>
 			<DCCReference Include="Gauge2.pas"/>
-			<DCCReference Include="Btn360.pas"/>
-			<DCCReference Include="BitmapUtils.pas"/>
+			<DCCReference Include="GradPnl.pas"/>
+			<DCCReference Include="HTMLEvent.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>

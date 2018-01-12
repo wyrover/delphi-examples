@@ -121,6 +121,27 @@
 				<Form>Form3</Form>
 				<FormType>dfm</FormType>
 			</DCCReference>
+			<DCCReference Include="UAdvPicturePane.pas">
+				<Form>Form93</Form>
+			</DCCReference>
+			<DCCReference Include="Udemo.pas">
+				<Form>Form100</Form>
+			</DCCReference>
+			<DCCReference Include="UDemo2.pas">
+				<Form>Form164</Form>
+			</DCCReference>
+			<DCCReference Include="UDemo4.pas">
+				<Form>Form101</Form>
+			</DCCReference>
+			<DCCReference Include="UDemo5.pas">
+				<Form>Form102</Form>
+			</DCCReference>
+			<DCCReference Include="UOverview.pas">
+				<Form>Form397</Form>
+			</DCCReference>
+			<DCCReference Include="UDemo6.pas">
+				<Form>Form10</Form>
+			</DCCReference>
 			<BuildConfiguration Include="Debug">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>

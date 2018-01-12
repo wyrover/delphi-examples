@@ -20,8 +20,9 @@ var
 implementation
 
 uses
-  fmDemo1, fmDemo2, fmDemo3, fmExcel, uCanvasDemo, fmJPGDemo, fmBitmap32Demo,
-  fmControlsDemo;
+  fmDemo1, fmDemo2, fmExcel, uCanvasDemo, fmJPGDemo, fmBitmap32Demo,
+  fmControlsDemo, UAdvPicturePane, Udemo, UDemo2, UAdvGauge, UDemo3,
+  UDemo4, UDemo5, UOverview, UDemo6;
 
 { TFormFactory }
 
@@ -63,11 +64,20 @@ initialization
   //RegisterClass(TFormRotateFlip01);
   RegisterClass(TExcelForm);
   RegisterClass(TDemo2Form);
-  RegisterClass(TDemo3Form);
+  //RegisterClass(TDemo3Form);
   RegisterClass(TfrmGraphics);
   RegisterClass(TJPGDemoForm);
   RegisterClass(TBitmap32Demo);
   RegisterClass(TControlsDemoForm);
+  RegisterClass(TForm93);
+  RegisterClass(TForm100);
+  RegisterClass(TForm164);
+  RegisterClass(TForm94);
+  RegisterClass(TForm665);
+  RegisterClass(TForm101);
+  RegisterClass(TForm102);
+  RegisterClass(TForm397);
+  RegisterClass(TForm10);
 
 
 finalization
@@ -75,9 +85,22 @@ finalization
   //UnRegisterClass(TFormRotateFlip01);
   UnRegisterClass(TExcelForm);
   UnRegisterClass(TDemo2Form);
-  UnRegisterClass(TDemo3Form);
+  //UnRegisterClass(TDemo3Form);
   UnRegisterClass(TfrmGraphics);
   UnRegisterClass(TJPGDemoForm);
   UnRegisterClass(TBitmap32Demo);
   UnRegisterClass(TControlsDemoForm);
+  UnRegisterClass(TForm93);
+  UnRegisterClass(TForm100);
+  UnRegisterClass(TForm164);
+  UnRegisterClass(TForm94);
+  UnRegisterClass(TForm665);
+  UnRegisterClass(TForm101);
+  UnRegisterClass(TForm102);
+  UnRegisterClass(TForm397);
+  UnRegisterClass(TForm10);
+
+
+  if Assigned(formFactory) then
+    FreeAndNil(formFactory);
 end.

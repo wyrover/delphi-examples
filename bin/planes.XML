@@ -12,5 +12,18 @@
       <node caption="JPG Demo" imageindex="0" classname="TJPGDemoForm"/>
       <node caption="Controls Demo" imageindex="0" classname="TControlsDemoForm"/>
     </node>
+    <node caption="tms controls" imageindex="0" classname="">
+      <node caption="TAdvPicturePane" imageindex="0" classname="TForm93"/>
+      <node caption="TAdvFocusHelper" imageindex="0" classname="TForm100"/>
+      <node caption="TAdvSmoothProgressBar" imageindex="0" classname="TForm164"/>
+      <node caption="TAdvGaugeCircle" imageindex="0" classname="TForm94"/>
+      <node caption="TAdvPolyList" imageindex="0" classname="TForm665"/>
+      <node caption="TAdvVerticalPolyList" imageindex="0" classname="TForm101"/>
+      <node caption="TAdvReflectionImage" imageindex="0" classname="TForm102"/>
+    </node>
+    <node caption="tms chart" imageindex="0" classname="">
+      <node caption="chart" imageindex="0" classname="TForm397"/>
+      <node caption="¹ö¶¯Í¼±í" imageindex="0" classname="TForm10"/>
+    </node>
   </node>
 </app>

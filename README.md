@@ -10,3 +10,120 @@
 - https://github.com/errorcalc/PackagesGenerator  用于生成不同 delphi 版本的组件包
 - https://github.com/errorcalc/TurboUpdate 使用 THttpClient 的简单自动更新程序
 - https://github.com/CWBudde/Pascal-HTML5-Canvas  一个 pascal 代码实现的类似 html5 canvas 的功能
+- https://github.com/jimmckeeth/DelphiPatterns     设计模式
+- https://github.com/d-mozulyov/CachedTexts         快速解析文本
+- https://github.com/Xor-el/HashLib4Pascal          Hash 算法
+- https://github.com/serbod/acs                     音频组件
+- https://github.com/serbod/dataport                串口
+- https://github.com/serbod/real-chat               IRC 客户端
+- https://github.com/serbod/serial-print            串行打印 带自动升级
+- https://github.com/serbod/talaria                 点对点信息交换
+- https://github.com/serbod/RemoteTwain             远程扫描仪服务器端
+- https://github.com/flakron-shkodra/LazSqlX        sql 数据库管理器
+- https://github.com/HeidiSQL/HeidiSQL              数据库管理器
+- https://github.com/serbod/orga                    组织管理系统
+- https://github.com/andrea-magni/SDriver           使用 System.Net.HttpClient 封装的库
+- https://github.com/jimmckeeth/CompressionSamples      zlib 例子
+- https://github.com/JackTrapper/bcrypt-for-delphi      BCrypt 算法用于密码 hash
+- https://github.com/JackTrapper/scrypt-for-delphi      对称加密密钥生成
+- https://github.com/Laex/Delphi-OpenCV                 delphi opencv 包装
+- https://github.com/Spelt/ZXing.Delphi                 条码库
+- https://github.com/google/brotli                      压缩算法
+- https://github.com/spinettaro/Firebase4Delphi         Firebase 访问接口
+- https://github.com/grahamegrieve/delphi-markdown      Markdown 解析
+- https://github.com/PromyLOPh/pianobar                 pianobar 是个性化的网络电台潘多拉的控制台客户端
+- https://github.com/norgepaul/DelphiGoogleAPI          google 云访问
+- https://github.com/bgbennyboy/USB-Disk-Ejector       usb 闪盘控制
+- https://github.com/bgbennyboy/Psychonauts-Explorer      游戏资源提取工具
+- https://quickandeasysoftware.net/software/doublefine-explorer
+- https://github.com/ccy/jedi-apilib                    windows api 用于令牌安全
+- https://github.com/delphifocus/EditBone               文本编辑器
+- https://github.com/tmcdos/usb-serial-number           usb 序列号
+- https://github.com/Pawe1/delphi-jose-jwt              jwt 验证
+- https://github.com/Pawe1/catarinka                    Catarinka 是 Lua 和 Pascal / Delphi 的一组库，作为 Sandcat Browser 项目的一部分开发
+- https://github.com/Pawe1/Delphi-Cross-Socket          socket
+- https://github.com/Pawe1/DirectoryWatcher             目录监视
+- https://github.com/salvadordf/CEF4Delphi
+- https://www.briskbard.com/index.php?lang=en           浏览器
+- https://github.com/Pawe1/Console-Application-Runner
+- https://github.com/miselkrstovic/screensaverkit           屏幕保护
+- https://github.com/miselkrstovic/graph-layout          图布局
+- https://github.com/miselkrstovic/carousel-view        旋转木马组件
+- https://github.com/miselkrstovic/organization-chart   组织结构图
+- https://github.com/miselkrstovic/space-invaders-delphi    太空大战游戏
+- https://github.com/Memnarch/AsciiImage                
+- https://github.com/WouterVanNifterick/C-To-Delphi
+- https://github.com/Shoozza/CurlPas
+- https://github.com/spinettaro/delphi-event-bus        EventBus
+- https://github.com/ahausladen/JsonDataObjects         解析 JSON
+- https://github.com/drapid/HFS                         HFS
+- https://github.com/michaelJustin/indy-snippets
+- https://github.com/andremussche/DelphiWebsockets      websockets
+- https://github.com/hartmutdavid/DatabaseTethering
+- https://github.com/corneliusdavid/PhotoKioskGenerator
+- https://github.com/ivere27/node-delphi
+- https://github.com/kevind7/libssh2_delphi
+- https://github.com/pyscripter/python4delphi           python 包装
+- https://github.com/littleearth/Delphi-EmbeddedWB
+- https://github.com/Casot/XMPP
+- https://github.com/henrique-gouveia/DContacts-Spring4D-DUnitX-Example
+- https://github.com/izemskov/OpenCVDelphi2_1
+- https://github.com/r1me/TOpenALPR                     车牌识别库
+- https://github.com/errorcalc/TurboUpdate              自动更新
+- https://github.com/geoffsmith82/DelphiTransymOCR
+- https://github.com/geoffsmith82/DelphiZip
+- https://github.com/geoffsmith82/TesseractConsole
+- https://github.com/geoffsmith82/VirusTotal
+- https://github.com/EdZava/TDateTimeHelper
+- https://github.com/EdZava/servicelocator
+- https://github.com/EdZava/delphi-rest-client-api
+- https://github.com/grijjy/DelphiZeroMQ                zeromq 包装
+- https://github.com/rfrezino/RFindUnit
+- https://github.com/grijjy/DelphiSocialFrameworks
+- https://github.com/grijjy/DelphiScalableClientSockets
+- https://github.com/grijjy/GrijjyFoundation
+
+
+
+- https://github.com/SirEOF/rspamd  垃圾邮件过滤
+
+- https://github.com/forknote 区块链
+- https://github.com/delphifocus/TinyNuke 宙斯风格的银行木马
+- https://github.com/delphifocus/al-khaser  反调试
+- https://github.com/delphifocus/mimikatz       windows 安全
+- https://github.com/quasar/QuasarRAT        远程管理
+- https://github.com/delphifocus/anti-dll-hijacking  反 DLL 劫持
+- https://github.com/EMBBlaster/DH_Virus_Maker          病毒  
+- https://github.com/SirEOF/ZeroNights2017             绕过访问令牌
+- https://github.com/SirEOF/DelayLoadInject
+- https://github.com/SirEOF/TheFatRat
+- https://github.com/SirEOF/masscan                 端口扫描工具
+- https://github.com/SirEOF/rp                      寻找 EXE 的 ROP 序列
+- https://github.com/SirEOF/gpumeminfo              GPU 内存信息
+- https://github.com/prshreshtha/GpuInfo
+- https://github.com/CHEF-KOCH/malware-research
+- https://github.com/mrexodia/TitanHide             内核驱动程序 
+- https://github.com/TranslucentTB/TranslucentTB    windows 任务栏透明
+- https://github.com/landhb/HideProcess
+- https://github.com/RaMMicHaeL/RAR-Unlocker
+- https://github.com/LongSoft/UEFITool
+
+
+- https://github.com/tmcdos/php-parallel-downloader   使用多个代理并行下载
+- https://github.com/airbnb/lottie-android             在本机渲染AE动画
+- https://github.com/iSoron/uhabits                     一款用于创建和维护良好习惯的 Android 应用程序
+- https://github.com/00nanhai/captchacker2              验证码识别
+- https://github.com/home-assistant/home-assistant      家庭助理
+- https://github.com/SirEOF/ImageSharp                  C# 图像库
+- https://github.com/serverless/serverless              部署到云的服务
+- https://github.com/evolus/pencil                      web gui 原型绘制
+- https://github.com/openalpr/openalpr              车牌识别
+- https://github.com/SirEOF/ethminer                以太币矿工
+
+
+- https://github.com/SirEOF/SimpleSec               一个java写的AES加密并用RSA签名的工具
+
+- https://github.com/SirEOF/PayPal-PHP-SDK          贝宝 PHP SDK
+- https://github.com/idhyt/AndroidDeviceInfo        android 设备信息
+- https://github.com/zhouzq-thu/Python-GPU-Info
+- https://github.com/CHEF-KOCH/regtweaks

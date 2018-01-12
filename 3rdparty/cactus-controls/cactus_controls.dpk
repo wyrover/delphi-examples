@@ -31,22 +31,27 @@ requires
   rtl,
   vcl,
   vclx,
-  vclimg;
+  vclimg,
+  vclie,
+  tmsdxe2,
+  tmsexdxe2;
 
 contains
   URLLbl in 'URLLbl.pas',
-  GradPnl in 'GradPnl.pas',
-  FlatPanel in 'FlatPanel.pas',
-  FlatMemo in 'FlatMemo.pas',
-  FlatEdit in 'FlatEdit.pas',
+  BitmapUtils in 'BitmapUtils.pas',
+  Btn360 in 'Btn360.pas',
+  cmpExWebBrowser in 'cmpExWebBrowser.pas',
   ColorUtils in 'ColorUtils.pas',
   FlatButton in 'FlatButton.pas',
   FlatCheckBox in 'FlatCheckBox.pas',
-  FlatTab in 'FlatTab.pas',
+  FlatEdit in 'FlatEdit.pas',
   FlatGauge in 'FlatGauge.pas',
+  FlatMemo in 'FlatMemo.pas',
+  FlatPanel in 'FlatPanel.pas',
   FlatProgressBar in 'FlatProgressBar.pas',
+  FlatTab in 'FlatTab.pas',
   Gauge2 in 'Gauge2.pas',
-  Btn360 in 'Btn360.pas',
-  BitmapUtils in 'BitmapUtils.pas';
+  GradPnl in 'GradPnl.pas',
+  HTMLEvent in 'HTMLEvent.pas';
 
 end.
